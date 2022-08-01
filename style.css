@@ -9,6 +9,8 @@
 
 body {
     background-color: #444;
+    height: auto;
+    width: auto;
 }
 
 hr {
@@ -30,7 +32,7 @@ hr {
 
 .navbar-background {
     background-color: #333;
-    height: 70px;
+    height: 100%;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -199,22 +201,25 @@ hr {
   
   #search-bar {
     position: relative;
-    margin: 10px;
+    height: 100%;
+    width: 100%;
+    top: 17px;
   }
   
   #search-input {
     line-height: 2rem;
     border-radius: 10px;
-    padding: 0.2rem 2rem;
-    font-size: 1.8rem;
-    
+    padding: 0.3rem 2rem;
+    font-size: 1rem;
+    height: 100%;
+    width: 100%;
   }
   
   #search-icon {
     position: absolute;
     top: 0;
     left: 0;
-    margin-top: 0.8rem;
+    margin-top: 0.5rem;
     padding: 0px 0.5rem;
   }
   
@@ -222,7 +227,7 @@ hr {
     position: absolute;
     top: 0;
     right: 0;
-    margin-top: 0.8rem;
+    margin-top: 0.5rem;
     padding: 0px 0.5rem;
   }
   
@@ -230,7 +235,6 @@ hr {
 /* End Search Bar */
 
 .img {
-    height: 100vh;
-    width: 1142px;
-    float: right;
+    height: 100%;
+    width: 100%;
 }
